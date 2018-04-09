@@ -1,45 +1,57 @@
+//fonts
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
 // default-styling
 
 body {
-    font-family: $myfont-family-base;
+    font-family: 'Nunito', sans-serif;
+
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
     background-color: $body-bg;
-    color: $body-color;
+    color: #46494c;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: $myfont-family-title;
-    font-weight: $font-weight-bold;
-}
 
 h1 {
     font-weight: $font-weight-light;
-    font-size: 4rem;
-    color: $color-grey-2;
+    font-size: 2.5rem;
+    font-family: 'Fredoka One', cursive;
+
+    
 }
 h2 {
-    font-weight: $font-weight-light;
-    font-size: 2rem;
-    margin: 2rem 0 1rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: 'Nunito', sans-serif;
+
+   
 }
-h3, h4, h5, h6 {
+
+h3{
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;  
+}
+
+h4, h5, h6 {
     font-size: 1rem;
-    margin: 2rem 0 0;
+    font-family: 'Nunito', sans-serif;
+
 }
 a {
     text-decoration: none;
-    color: $body-link;
-    border-bottom: dotted 1px $body-link;
+    color: white;
     &:hover{
-        color: $body-link;
+        font-weight:bold;
         text-decoration: none;
-        border-bottom: solid 1px $body-link;
     }
     &:active{
-        background-color: $body-link;
-        color: $color-white;
+        color: #009a83;
     }
     &:focus{}
 }
@@ -54,15 +66,19 @@ main ul {
   margin: 0 0 1em;
   padding: 0;
   li {
-    padding-left: 25px;
+    padding-left: 50px;
     text-indent: -25px;
+    margin-top:15px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: #FADB61;
         margin-right: 18px;
     }    
   }
 }
+
+
+
 
 //geordende lijstjes met een ander symbool of kleur
 main ol {
@@ -97,4 +113,337 @@ button, a.btn {
 }
 input[type=text], textarea {
 
+}
+
+
+
+
+.rowmt{
+    margin-top:80px;
+}
+
+
+//lijn onder titels
+
+.pseudo_border {
+    position:relative;
+    display:inline-block;
+}
+.pseudo_border:after {
+    content:'';
+    position:absolute;
+    left:0;right:0;
+    top:100%;
+    margin-top: 10px;
+    width:20%;
+    max-width:50px;
+    height:6px;
+    background:#FADB61;
+}
+
+.pseudo_borderover{
+    display:inline-block; 
+    text-align:right;
+}
+
+// HOVER EFFECT GALERIJ //
+
+.containerpatroon {
+    position: relative;
+    width: 50%;
+    overflow:hidden;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FADB61;
+    overflow: hidden;
+    margin-left:15px;
+    margin-right:15px;
+    height: 0;
+    transition: .5s ease;
+    
+  }
+  
+  .containerpatroon:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  
+
+// CENTER IMAGE //
+
+.center {
+    position: relative;          /* where the next element will be automatically positioned */
+    display: inline-block;       /* causes element width to shrink to fit content */
+    left: 50%;                   /* moves left side of image/element to center of parent element */
+    transform: translate(-50%);  /* centers image/element on "left: 50%" position */
+}
+
+.pkleurencards{
+    color:white;
+}
+
+// HEADER IMAGE //
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.h1header{
+    font-size:700%;
+    color:white;
+    margin-right:150px;
+    padding-bottom:300px;
+    text-shadow: 2px 2px 2px #000
+}
+
+
+
+// NAV LINKS  //
+
+
+
+.navkleur{
+    background-color:#009a83 !important; 
+    padding-top:35px;
+
+
+
+}
+
+
+
+
+
+// HEADER RUIMTE BOVENAAN WEG
+
+.pt-5{
+    padding-top:0rem !important;
+}
+
+
+
+.ptypoinl{
+    width:60%;
+}
+
+.pwhite, .h1white{
+    color:white;
+}
+
+
+
+
+
+.pralign{
+    text-align:right;
+}
+
+
+.tussentitel{
+    font-family:'Nunito', sans-serif;
+    font-weight:bold;
+    font-size:150%;
+}
+
+.h1groen{
+    color:#009a83;
+}
+
+
+.divkleuren{
+    margin-left:15px;
+    color:white;
+}
+
+.margincol{
+    padding:20px;
+}
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.containerpatroon{
+    position:relative;
+}
+
+.tekstpatroon{
+    position:absolute;
+}
+
+// HOVER EFFECT ELEMENTEN //
+
+.overlayelementen{
+    background-color: #009a83 !important;
+
+}
+
+
+// HOME //
+
+.rijover{
+    background-color:#FADB61;
+}
+
+.rijover p{
+    margin:35px 200px 50px 50px;
+}
+
+.rijover h1{
+    color:white;
+    text-align:right;
+    margin-top:30px;
+}
+
+// LIJN ONDER TITELS RECHT UITLIJNEN //
+
+.pseudo_borderover {
+    position:relative;
+    display:inline-block;
+}
+.pseudo_borderover:after {
+    content:'';
+    position:absolute;
+    right:0;
+    top:100%;
+    margin-top: 10px;
+    width:20%;
+    height:6px;
+    background:#FADB61;
+}
+
+.rowover{
+    margin-top:150px;
+    background-color:#F6F6F6;
+    padding:100px;
+}
+
+.backgroundimage{
+    background-image: '/images/reptiel1.jpg';
+    background-size:cover;
+}
+
+
+.boxpatroononderaan{
+    margin-top:50px;
+}
+
+.col-md-3{
+    background-color:#009a83 !important; 
+    padding-top:35px;
+}
+
+.bg-light{
+    background-color:#009a83 !important;
+}
+
+.pt-5{
+    padding-top:0rem !important;
+}
+
+.container{
+    width:100% !important;
+    padding:0;
+}
+
+@media (min-width:992px){
+    .container{
+        max-width: 100%;
+        }
+}
+
+.nav-link, .navbar-light, .navbar-nav{
+    color:white !important;
+}
+
+/*
+.navbar-brand{
+    margin-left:100px;
+}
+
+.navbar-expand, .navbar-collapse{
+    margin-left:150px;
+}
+
+.navbar-expand, .navbar-nav, .nav-link{
+    padding-left: 2.5em !important;
+    padding-right: 2.5em !important;
+}
+*/
+
+
+.pintro{
+    width:80%;
+    font-size:20px;
+    line-height:35px;
+    margin-bottom:150px;
+    margin-left:50px;
+}
+
+.footercontainer{
+    background-color:#31393C;
+    padding:0;
+
+    margin-top:100px !important;
+}
+
+.rijbody{
+    margin-bottom:150px;
+    padding-bottom:150px;
+}
+
+.imgnav{
+    width:100%;
+    margin-top:20px;
+    margin-bottom:60px;
+}
+
+
+
+.logofooter{
+    width:40%;
+}
+
+.rijfooter{
+    margin-top:50px;
+    margin-bottom:30px;
+}
+
+.imgwidth{
+    width:100%;
 }

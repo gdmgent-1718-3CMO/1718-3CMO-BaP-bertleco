@@ -22,6 +22,18 @@
             position: static !important;
             display: block  !important;
         }
+        li a:hover{
+            font-weight:bold;
+            
+        }
+
+        .dropdown-item.active{
+            background-color:#008c79;
+            
+        }
+
+     
+
      }
 
  }

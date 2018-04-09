@@ -1,3 +1,5 @@
+
+
 /* Navigation
 ---------------------------------------------
 */
@@ -49,7 +51,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color:#009a83; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -60,4 +62,362 @@ footer {
   &:hover {
     background-color:$mycolor-5; 
   }
+}
+
+
+/* HOME 
+*/
+
+.rijcopyright{
+  margin-top:100px;
+}
+
+.imgrijcopyright{
+  margin-right:100px;
+  height:70px;
+}
+
+.hovertest{
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hovertest:hover {
+  opacity: .5; 
+}
+
+.afbeeldingheader{
+
+  height:400px;
+  background-size:cover;
+}
+
+
+
+/*PAGINA LOGO
+*/
+
+.logointro{
+  height:200px;
+  margin-bottom:80px;
+}
+
+.rijintro{
+  margin-top:150px;
+}
+
+.containerhoverlogo {
+  position: relative;
+  width: 50%;
+  overflow:hidden;
+}
+
+.containerhoverlogo:hover .overlaylogo {
+  height: 100%;
+}
+
+
+.overlaylogo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FADB61;
+  overflow: hidden;
+  margin: 0px 15px 0px 15px;
+  height: 0;
+  transition: .5s ease;
+  
+}
+
+.puitleg{
+  margin-top:50px;
+  width:80%;
+}
+
+.h1logo{
+  display:inline-block;
+  margin-top:80px;
+}
+
+.imglogo{
+  display:inline-block; 
+  width:1.2%; 
+  margin-left:5px;
+}
+
+.cardlogo{
+  width: 18rem;
+  min-height:450px !important;
+}
+
+.vet{
+  font-weight:bold;
+}
+
+/* KLEUR PAGINA */
+
+.imgkleurintro{
+  height:400px;
+}
+
+.tekstbottom{
+  vertical-align:bottom;
+}
+
+.divkleuren p{
+  line-height:1.7em;
+}
+
+.kleurvet{
+  font-weight:bold;
+  margin-bottom:10px;
+ 
+}
+
+
+/* TYPOGRAFIE PAGINA
+*/
+
+.colhierarchie{
+  background-color:#FADB61;
+
+}
+
+.rijhierarchie{
+  margin-top:30px;
+}
+
+
+.rowhierarchie{
+margin:30px;
+}
+
+.pfont{
+  margin-top:10px;
+  font-style:italic;
+}
+
+.imglogoh1{
+
+    display:inline-block; 
+    width:2.5%; 
+    margin-left:5px;
+  
+}
+
+.h1groen{
+  display:inline-block;
+  color:#009a83;
+
+}
+.prbold{
+  font-weight:bold;
+}
+
+a.urltypo:hover{
+  text-decoration: underline;
+  color:white;
+}
+
+.kolomlettertypesfredoka{
+  background-color:#009a83;
+}
+
+.kolomlettertypesnunito{
+  background-color:#FADB61;
+}
+
+.kolomlettertypesmargin{
+  margin:50px;
+}
+
+
+.lettertypeoverzicht{
+  line-height:2;
+  margin-top:30px;
+}
+
+.lettertypeoverzichtnunito{
+  line-height:2;
+  margin-top:30px;
+  font-family: 'Nunito', sans-serif;
+
+  font-weight: bold;
+
+}
+
+
+.h1nunito{
+  font-family: 'Nunito', sans-serif !important;
+  font-weight:bold;
+  color:white;
+  font-size: 2.5rem;
+  margin-bottom:30px;
+
+}
+.nunitovoorbeeld{
+  font-family: 'Nunito', sans-serif !important;
+  font-weight:bold;
+  font-size: 2.5rem;
+  line-height:2em;
+  margin-top:30px;
+  
+}
+
+.rowweight{
+  margin-top:60px;
+}
+
+.pweight{
+  font-family:'Nunito', sans-serif; 
+  font-style:italic;
+  font-size:150%;
+  line-height:1.5;
+  text-align:right;
+}
+
+
+
+.plight{
+  font-family:'Nunito', sans-serif;
+  font-weight:light; 
+}
+
+.pitalic{
+  font-family:'Nunito', sans-serif;
+  font-style:italic;
+}
+.pbold{
+  font-family:'Nunito', sans-serif;
+  font-weight:bold;
+}
+
+.pfonttype{
+  font-family:'Nunito', sans-serif;
+  font-weight:bold;
+  color:#009a83;
+}
+
+
+/* ELEMENT PAGINA */
+
+.containerpatroonuitleg{
+
+  position: relative;
+  text-align: left;
+  color: white;
+
+}
+
+
+.h1fredokaone{
+
+ color:white;
+    margin-bottom:30px;
+
+}
+
+.card{
+  min-height:380px;
+}
+
+.rijelementencards{
+  margin-top:50px;
+}
+
+#rijpatroon{
+  margin-top:200px;
+}
+
+.pintroelementen{
+ 
+    width:80%;
+    font-size:20px;
+    line-height:35px;
+    margin-bottom:100px;
+    margin-left:50px;
+
+}
+
+.kleurpootje{
+  font-weight:bold;
+}
+
+
+/* BANNER */ 
+
+.abody{
+  color:#009a83 !important;
+  text-decoration:underline;
+}
+
+.algemeen h2{
+  margin-top:50px;
+}
+
+.imgbanner{
+  height:600px;
+}
+
+.download{
+  background-color: #fadb61;
+  padding-left:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-top:100px;
+
+
+  
+}
+
+.download:hover{
+  -webkit-transform: scale(1.005);
+  -ms-transform: scale(1.005);
+  transform: scale(1.005);
+  background-color:#009a83;
+
+
+}
+.downloadh1{
+  margin-top:20px;
+}
+
+.pdownload{
+  margin-top:20px;
+}
+
+.adownload:hover {
+  text-decoration:none;
+  color:white;
+}
+
+/* KALENDER */
+
+.imgkalender{
+  margin-top:100px;
+}
+
+
+/* VISITEKAARTJE */
+
+.imgvisitekaartje{
+  margin-top:100px;
+  width:80%;
+}
+
+/* OMSLAG */
+
+.p80{
+  width:80%;
+  margin-top:50px;
+}
+
+.algemeen h2{
+  color:#009a83;
+}
+
+.dropdown-item:hover{
+  color: #009a83 !important;
 }
