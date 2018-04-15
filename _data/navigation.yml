@@ -2,6 +2,11 @@
 # dubbele spatie voor de criteria behouden
 
 
+- name: Home
+  description: Home
+  # folder: pages/logo/
+  permalink: /index
+  # fa-icon: icon-graduation-cap
 
 - name: Logo
   description: Logo
