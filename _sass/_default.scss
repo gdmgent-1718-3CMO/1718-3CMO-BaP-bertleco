@@ -25,9 +25,8 @@ h1 {
     
 }
 h2 {
-    font-weight: bold;
     font-size: 1.7rem;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Fredoka One', cursive;
 
    
 }
@@ -45,7 +44,7 @@ h4, h5, h6 {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #009a83;
     &:hover{
         font-weight:bold;
         text-decoration: none;
@@ -68,7 +67,7 @@ main ul {
   li {
     padding-left: 50px;
     text-indent: -25px;
-    margin-top:15px;
+    margin-top:6px;
     &:before {
         content:'\2022';
         color: #FADB61;
@@ -77,7 +76,13 @@ main ul {
   }
 }
 
+#mainNavigation{
+    margin-left:50px;
+}
 
+.nav-item{
+    margin-top:8px;
+}
 
 
 //geordende lijstjes met een ander symbool of kleur
@@ -124,6 +129,7 @@ input[type=text], textarea {
 
 
 //lijn onder titels
+/*
 
 .pseudo_border {
     position:relative;
@@ -145,6 +151,7 @@ input[type=text], textarea {
     display:inline-block; 
     text-align:right;
 }
+*/
 
 // HOVER EFFECT GALERIJ //
 
@@ -211,7 +218,7 @@ input[type=text], textarea {
 
 .caption {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 0;
     width: 100%;
 }
@@ -268,9 +275,8 @@ input[type=text], textarea {
 
 
 .tussentitel{
-    font-family:'Nunito', sans-serif;
-    font-weight:bold;
-    font-size:150%;
+    font-family:'Fredoka One', sans-serif;
+    font-size:130%;
 }
 
 .h1groen{
@@ -331,7 +337,7 @@ input[type=text], textarea {
 }
 
 // LIJN ONDER TITELS RECHT UITLIJNEN //
-
+/*
 .pseudo_borderover {
     position:relative;
     display:inline-block;
@@ -346,6 +352,7 @@ input[type=text], textarea {
     height:6px;
     background:#FADB61;
 }
+*/
 
 .rowover{
     margin-top:150px;
@@ -415,16 +422,22 @@ input[type=text], textarea {
     margin-left:50px;
 }
 
+.pintrotypo{
+    width:80%;
+    font-size:20px;
+    line-height:35px;
+    margin-bottom:10px;
+    margin-left:50px;
+}
+
 .footercontainer{
-    background-color:#31393C;
+    background-color:#46494c;
     padding:0;
 
     margin-top:100px !important;
 }
 
 .rijbody{
-    margin-bottom:150px;
-    padding-bottom:150px;
 }
 
 .imgnav{

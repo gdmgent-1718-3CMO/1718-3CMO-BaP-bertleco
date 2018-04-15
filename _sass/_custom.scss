@@ -7,6 +7,8 @@
     border: none;
 }
 
+
+
 /* FOOTER
 ----------------------------------------------
 sticked to the bottom with small content pages
@@ -83,6 +85,15 @@ footer {
 	transition: .3s ease-in-out;
 }
 
+
+.downloadhuisstijl{
+  line-height:1.5em !important;
+}
+
+.rowdownloadhuisstijl{
+  margin-top:100px;
+}
+
 .hovertest:hover {
   opacity: .5; 
 }
@@ -99,8 +110,8 @@ footer {
 */
 
 .logointro{
-  height:200px;
-  margin-bottom:80px;
+  height:300px;
+  margin-bottom:50px;
 }
 
 .rijintro{
@@ -112,6 +123,15 @@ footer {
   width: 50%;
   overflow:hidden;
 }
+
+.plogo{
+  width:80%;
+  font-size:20px;
+  line-height:35px;
+  margin-bottom:70px;
+  margin-left:50px;
+}
+
 
 .containerhoverlogo:hover .overlaylogo {
   height: 100%;
@@ -136,15 +156,59 @@ footer {
   width:80%;
 }
 
+
 .h1logo{
   display:inline-block;
   margin-top:80px;
 }
 
+.h1logonietzohoog{
+  display:inline-block;
+
+}
+
+.row2{
+  margin-top:80px;
+}
+.pitalic{
+  font-style:italic;
+}
+
+.rijnunito{
+  margin-top:30px;
+}
+.h1toep{
+  display:inline-block;
+
+}
+
+.imgwebsite{
+  margin-top:50px;
+}
 .imglogo{
   display:inline-block; 
   width:1.2%; 
   margin-left:5px;
+}
+
+.btntoep{
+  display:block;
+}
+
+.rowtoep{
+  margin-top:150px;
+}
+
+.imgtoep{
+  height:400px;
+  margin-top:100px;
+}
+
+.h2stat{
+  margin-bottom:10px;
+}
+.teksttoep{
+  margin-left:50px;
 }
 
 .cardlogo{
@@ -152,9 +216,40 @@ footer {
   min-height:450px !important;
 }
 
+.cardlogo2{
+  width: 18rem;
+  min-height:330px !important;
+}
 .vet{
   font-weight:bold;
 }
+
+
+.btntest{
+  background-image : url("../images/button4.svg") !important;
+  background-repeat: no-repeat;
+  
+
+width: 200px;
+padding: 20px;
+
+}
+
+
+
+
+.btntest:hover{
+  background-image : url("../images/button4.svg");
+  background-repeat: no-repeat;
+  
+
+width: 200px;
+padding: 20px;
+
+}
+
+
+
 
 /* KLEUR PAGINA */
 
@@ -185,6 +280,19 @@ footer {
 
 }
 
+.afredoka{
+  color:white !important;
+}
+
+.h1overzicht{
+  margin-top:50px;
+
+}
+.imgh1{
+  width:80%;
+  margin-top:80px;
+}
+
 .rijhierarchie{
   margin-top:30px;
 }
@@ -210,7 +318,11 @@ margin:30px;
 .h1groen{
   display:inline-block;
   color:#009a83;
+}
 
+.h1grijs{
+  display:inline-block;
+  color:#46494c;
 }
 .prbold{
   font-weight:bold;
@@ -278,7 +390,13 @@ a.urltypo:hover{
   text-align:right;
 }
 
+.pweightsub{
+  text-align:right;
+}
 
+.pweightuitleg{
+  font-size:80%;
+}
 
 .plight{
   font-family:'Nunito', sans-serif;
@@ -300,6 +418,13 @@ a.urltypo:hover{
   color:#009a83;
 }
 
+.logodownload{
+  margin-top:20px;
+}
+
+.downloadbuttonlogo{
+  margin-top:30px;
+}
 
 /* ELEMENT PAGINA */
 
@@ -311,6 +436,24 @@ a.urltypo:hover{
 
 }
 
+.downloadbutton{
+  margin-top:80px;
+}
+.downloadelement{
+  margin-top:20px;
+  font-weight:bold;
+}
+.elementalgemeen h2{
+  color: #009a83 ;
+  margin-bottom:10px;
+}
+.h1element{
+  margin-top:150px;
+}
+
+.rijelement{
+  margin-top:60px;
+}
 
 .h1fredokaone{
 
@@ -323,14 +466,24 @@ a.urltypo:hover{
   min-height:380px;
 }
 
+
+
 .rijelementencards{
   margin-top:50px;
 }
 
-#rijpatroon{
-  margin-top:200px;
+.imgelementen{
+  width:100%;
 }
 
+#rijpatroon{
+  margin-top:100px;
+}
+
+.pinleidingelement{
+  width:80%;
+  margin-top:30px;
+}
 .pintroelementen{
  
     width:80%;
@@ -341,10 +494,80 @@ a.urltypo:hover{
 
 }
 
+.btn {
+ 
+  background-color:#009a83;
+  border-radius:10px;
+  /*border:2px solid #009a83;*/
+  border: none !important;
+  color: white;
+  padding: 10px 30px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom:10px;
+  margin-top:20px;
+  font-family: 'Fredoka One', sans-serif;
+  outline: none !important;
+}
+
+.btn:hover {
+ 
+  background-color:#008c79;
+  border-radius:10px;
+  /*border: 2px solid #008c79;*/
+  color: white;
+  padding: 10px 30px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, {
+  font-weight:bold;
+  color:black;
+}
+
+
+
+.btn:active {
+ 
+  background-color:#008c79;
+  border-radius:10px;
+  border: none !important;
+  color: white;
+  padding: 10px 30px !important;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  outline: 0 !important;
+}
+
+
+* {
+  outline: none;
+  }
+  
+  button::-moz-focus-inner,
+  input[type="reset"]::-moz-focus-inner,
+  input[type="button"]::-moz-focus-inner,
+  input[type="submit"]::-moz-focus-inner,
+  input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: none;
+  }
+  
+
+
 .kleurpootje{
   font-weight:bold;
 }
 
+.witruimte{
+  margin-top:200px;
+}
 
 /* BANNER */ 
 
@@ -399,12 +622,36 @@ a.urltypo:hover{
   margin-top:100px;
 }
 
+.btn-glyphicon {
+  padding:8px;
+  background:#ffffff;
+  margin-right:4px;
+}
+.icon-btn {
+  padding: 1px 15px 3px 2px;
+  border-radius:50px;
+}
+
+
+
+.tekstbutton{
+  padding-bottom:30px;
+}
 
 /* VISITEKAARTJE */
 
 .imgvisitekaartje{
   margin-top:100px;
-  width:80%;
+  height:500px;
+ 
+}
+
+.row2col{
+  margin-left:15px;
+}
+
+.imgintro{
+  height:500px;
 }
 
 /* OMSLAG */
@@ -412,6 +659,10 @@ a.urltypo:hover{
 .p80{
   width:80%;
   margin-top:50px;
+}
+
+.padresgegevens{
+  width:70% !important;
 }
 
 .algemeen h2{
